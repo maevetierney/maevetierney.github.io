@@ -1,77 +1,76 @@
-html {
-  background-color: ##ee82ee;
+html{
+  background-color: #ee82ee;
 }
 
-.header {
-	font-family: monospace;
-	font-style: normal;
-	color: aqua;
-	font-size: 50px;
-	text-align: center;
+header h1 {
+  font-family: Courier New;
+  size: 55px;
+  color: aqua;
+  text-align: center;
 }
 
-.navbar {
-	text-align: center;
-	border-style: double;
-	border-color: aqua;
-	padding: 1em;
+header table { 
+  border-color: aqua;
+  display: block;
+  border-style: double;
+  padding: 1em;
+  background-color: white;
 }
 
-#navbutton {
-	color: #d02090;
-	margin: 1em; 
-	size: 20px;
-	font-family: monospace;
+header table td {
+  display: inline-block;
+  font-family: courier new;
+  text-align: center;
+  padding-right: 5em;
+  padding-left: 5em;
 }
 
-.mainpic {
-	margin-left: 0%;
-	margin-right: 44%;
-	margin-bottom: 1em;
-	border-style: double;
-	margin-top: 1em;
-	border-color: aqua;
-	height: 100%;
-	position: inherit;
-	width: 100%;
-	text-align: center;
+#mainpic {
+  margin-left: 0%;
+  margin-right: 44%;
+  margin-bottom: 1em;
+  border-style: double;
+  margin-top: 1em;
+  border-color: aquamarine;
+  position: inherit;
+  text-align: center;
+  height: 100%;
+  width: 100%;
 }
 
-.tabletitle { 
-	font-family: monospace;
-	font-size: 25px;
-	color: aqua;
-	font-style: oblique;
+#BlogSection {
+  display: table;
+  border-spacing: 2px;
+  border color: aqua;
+  border-style: doubble;
+  text-align: center;
+  display: inline-block;
 }
 
-#recentblogposts {
-	border-style: double;
-	border-color: aqua;
-	text-align: center;
-	padding-left: 3em;
-	padding-right: 3em;
+#Title { 
+  font-size: 20px;
+  color: aqua;
+  font-family: Courier New;
 }
 
-#blogtitle{
-	font-family: Monospace;
-	text-align: center;
-	font-size: 15px;
-	color: #darkblue;
-}
-#recentimg { 
-	width: 9em;
-	height: 6em;
-}
-
-#snippet {
-	font-size: 12px;
-	font-family: monospace;
-	color: white;
-	text-align: left;
+#BlogPost {
+  border-style: double;
+  border-color: aqua;
+  padding-left: 3em;
+  padding-right: 3em;
+  text-align: center;
+  font-family: courier new;
+  font-size: 15px;
+  color: white;
 }
 
-.Search {
-	font-family: monospace;
-	font-size: 13px;
-	color: aqua;
+#BlogPic {
+  height: 9em;
+  width: 6em;
 }
+
+#Snippet {
+  font-family: courier new;
+  color: white;
+}
+
