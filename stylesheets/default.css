@@ -1,0 +1,77 @@
+html {
+  background-color: ##ee82ee;
+}
+
+.header {
+	font-family: monospace;
+	font-style: normal;
+	color: aqua;
+	font-size: 50px;
+	text-align: center;
+}
+
+.navbar {
+	text-align: center;
+	border-style: double;
+	border-color: aqua;
+	padding: 1em;
+}
+
+#navbutton {
+	color: #d02090;
+	margin: 1em; 
+	size: 20px;
+	font-family: monospace;
+}
+
+.mainpic {
+	margin-left: 0%;
+	margin-right: 44%;
+	margin-bottom: 1em;
+	border-style: double;
+	margin-top: 1em;
+	border-color: aqua;
+	height: 100%;
+	position: inherit;
+	width: 100%;
+	text-align: center;
+}
+
+.tabletitle { 
+	font-family: monospace;
+	font-size: 25px;
+	color: aqua;
+	font-style: oblique;
+}
+
+#recentblogposts {
+	border-style: double;
+	border-color: aqua;
+	text-align: center;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+#blogtitle{
+	font-family: Monospace;
+	text-align: center;
+	font-size: 15px;
+	color: #darkblue;
+}
+#recentimg { 
+	width: 9em;
+	height: 6em;
+}
+
+#snippet {
+	font-size: 12px;
+	font-family: monospace;
+	color: white;
+	text-align: left;
+}
+
+.Search {
+	font-family: monospace;
+	font-size: 13px;
+	color: aqua;
+}
