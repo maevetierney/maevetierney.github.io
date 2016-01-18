@@ -4,7 +4,7 @@ html{
 
 header h1 {
   font-family: Courier New;
-  size: 55px;
+  size: 55px, bigger;
   color: aqua;
   text-align: center;
 }
@@ -17,12 +17,17 @@ header table {
   background-color: white;
 }
 
+header table tr {
+  display: inline-block;
+  text-align: center;
+}
+
 header table td {
   display: inline-block;
-  font-family: courier new;
+  font-family: Courier New;
   text-align: center;
-  padding-right: 5em;
-  padding-left: 5em;
+  padding-right: 6em;
+  padding-left: 6em;
 }
 
 #mainpic {
