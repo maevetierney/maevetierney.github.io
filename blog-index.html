@@ -68,11 +68,20 @@
 	<img id="PostPic" src='https://inspirationfeeed.files.wordpress.com/2012/12/hiring-web-designer.jpg' alt='Post Picture' alt='Post Picture'>
 
 	<p id="PostText">
-		-What is an Array?
-An array is basically a list. Let’s use a grocery list as an example. A grocery list is a wonderful example. Let’s say you want to write down the list on your phone in a note. You would title the list as grocery list. Then you would add in a number of items that you would like to buy at the store. That’s exactly what an array is; a number of objects in a stored list. The cool thing about arrays is that you can do so many things to it on the computer with just a few strokes of your key. You can apply all sorts of methods to combine different arrays(lists!), change the items in the array, delete the items, and even organize them in certain ways. Also, in the array, there are given numbers called indices that are assigned to each object in the array. The number of indices starts at 0… and continues on from there. So, to access an object, you simply use the index number. 
+There are a million enumerators out there! Sometimes it’s super hard to pick the right one for your iteration over an array or a hash. One of my personal go-to enumerators is the .group_by operation used over a hash.
 
--What is a Hash?
-A hash is similar to an array, the biggest difference though is you do not use indices, however the basis of a hash is that objects are stored in pairs, using a key and a value. Let’s say we are using the list metaphor again. Perhaps you are making a list of your friend’s birthdays. You’re going to want to have a number of names(keys) and a number of dates(values). Each name will correspond to a date. This is the basis of a hash. It allows a bit more information than an array, which is much more like a simple list. A hash also remembers the order in which you give the keys. You can absolutely play with the hash in a lot of the same ways as the array. You can apply all sorts of methods to combine different hashes, change the items, delete the items, and even organize them in certain ways. Also, ANY Ruby object can serve as a key and value. However, you can only have one key and value pair for any given key. 
+This operation takes a code block and returns a hash according to the information you want it to be organized by with a value. 
+
+Let’s say you have an array of all of the names of your best friends because your doing a DIY project with their names, so you want to order the names by their size so you know how many letters to buy at the store. So you know you want to use the method .size iterating over each name in an array. You would do it kinda like this right?
+
+	bffs =[“Kyra”, “Jenna”, “Arden”, “Megan”, “Ellen”, “Kendall”]
+
+	bffs.group_by do |name| name.size
+
+Great Job! Your method will return something like this: 
+
+	{4=>["Kyra"], 5=>["Jenna", "Arden", "Megan", "Ellen"], 7=>["Kendall"]} 
+
 	</p> 
 
 	<h6 id="MoreButton">
