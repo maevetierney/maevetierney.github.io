@@ -1,0 +1,75 @@
+html{
+  background-color: #ee82ee;
+}
+
+header h1 {
+  font-family: Courier New;
+  size: 55px, bigger;
+  color: aqua;
+  text-align: center;
+}
+
+header table { 
+  border-color: aqua;
+  display: block;
+  border-style: double;
+  padding: 1em;
+  background-color: white;
+}
+
+header table tr {
+  display: inline-block;
+  text-align: center;
+}
+
+header table td {
+  display: inline-block;
+  font-family: Courier New;
+  text-align: center;
+  padding-right: 6em;
+  padding-left: 6em;
+}
+
+#ContactMe{
+  margin-right: 10em;
+  margin-top: 10em;
+  display: block;
+  text-align:center;
+}
+
+#BlogSection {
+  display: table;
+  border-spacing: 2px;
+  border color: aqua;
+  border-style: doubble;
+  text-align: center;
+  display: inline-block;
+}
+
+#Title { 
+  font-size: 20px;
+  color: aqua;
+  font-family: Courier New;
+}
+
+#BlogPost {
+  border-style: double;
+  border-color: aqua;
+  padding-left: 3em;
+  padding-right: 3em;
+  text-align: center;
+  font-family: courier new;
+  font-size: 15px;
+  color: white;
+}
+
+#BlogPic {
+  height: 9em;
+  width: 6em;
+}
+
+#Snippet {
+  font-family: courier new;
+  color: white;
+}
+
