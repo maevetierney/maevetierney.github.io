@@ -1,4 +1,3 @@
-
 html{
   background-color: #ee82ee;
 }
@@ -43,7 +42,7 @@ header table td {
 #ContactBody {
   display: block;
   text-align: center;
-  
+  padding: 1em;
 }
 #ContactRow{
   display:inline-block;
