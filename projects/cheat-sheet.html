@@ -4,7 +4,7 @@
     <title> Maeve Tierney's Personal Website 
     </title>
 
-    <link rel="stylesheet" type="text/css" href="../maevetierney.github.io/stylesheets/cheat-sheet-css.css">
+    <link rel="stylesheet" type="text/css" href="../maevetierney.github.io/stylesheets/projects-index.css">
 
 </head>
   
@@ -27,41 +27,40 @@
     <p> Currently enrolled in Dev Bootcamp San Diego </p> 
   </header>
 
-  <h1 id = "title"> Cheat Sheet: Javascript Funcions</h1> 
+<h1 id = "title"> Cheat Sheet: Javascript Funcions</h1> 
+<p id = "quick"> Sunday, Feb 21, 2016 </p> 
 
-      <p id = "quick"> Sunday, Feb 21, 2016 </p> 
+<p id = "quick"> 
 
-      <p id = "quick"> 
 <h4 id = "quick">Chapter 3: Functions</h4>
     <h6 id = "quick">Defining a function: </h6>
-        - var square = function(X) {
+    - var square = function(X) {
             - return x * x;
         - };
         - console.log(square(12));
     <h6 id = "quick">Breakdown:</h6>
-        - keyword function
-        - parameters in parentheses
-        - body which has statements that are executed when the function is called. It must always be wrapped in curly braces.
-    - They either produce values or side effects
-    - Return determines the value returned, without an expression after it will be undefined
-    - Parameters are local to the function
+  - keyword function
+  - parameters in parentheses
+  - body which has statements that are executed when the function is called. It must always be wrapped in curly braces.
+  - They either produce values or side effects
+  - Return determines the value returned, without an expression after it will be undefined
+  - Parameters are local to the function
         - Var keyword creates them
         - If you want to change a global variable that was declared outside the function, you simply do x = new value in the function instead of var x = new value.
-    - Functions can be created within other functions - i.e. nested scope
-
+  - Functions can be created within other functions - i.e. nested scope
         - Each local scope can also see the local scopes that contain it.
         - Lexical scoping - functions are the only thing that create a new scope
-    - Function variable = function value
-    - var fun = function() {};
-    - A variable that holds a function can be changed and assigned a new value later
-    - Function Declaration notation:
+  - Function variable = function value
+  - var fun = function() {};
+  - A variable that holds a function can be changed and assigned a new value later
+  - Function Declaration notation:
         - function square(X) {
             - return x *X;
         - }
-        - Not a part of control flow, can be used by all code in the scope of bottom to top flow
+  - Not a part of control flow, can be used by all code in the scope of bottom to top flow
    <h6 id = "quick"> Call stack</h6>
 
-        - The place where the computer stores the context where every time a function is called, the current context is put on top of this stack.
+    - The place where the computer stores the context where every time a function is called, the current context is put on top of this stack.
     - If you pass too many arguments to a function, it ignores the others
         - So you can pass optional arguments.
    <h6 id = "quick">Closure</h6>
@@ -69,13 +68,11 @@
         - A function that closes over some local variables is called a closure
         - IT makes it so you don’t have to worry about lifetimes of variables
     <h6 id = "quick">Recursion</h6>
-
         - https://mitpress.mit.edu/sicp/full-text/book/book.html
         - Allows some functions to be written in a different style 
-      </p> 
+</p> 
 
-  </p>
-
+  
 </body>
 
 </html>
